@@ -1,0 +1,49 @@
+/* .a{
+    color:red;
+    transition:1s ;
+    position: relative;
+    margin:100px;
+    
+    
+}
+
+.a:hover {
+    color:blue;
+}
+
+
+.a:hover .c{
+    display: block;
+}
+
+
+.b {
+    display: block;
+    text-decoration: none;
+}
+
+.b:hover{
+    color:blue;
+}
+
+
+
+.c{
+    background:#fff;
+    border: 1px solid #ccc;
+    width: 50px;
+    border-radius: 10px;
+    line-height:30px;
+    position: absolute;
+    box-shadow: 0 0 2px #ccc ;
+    margin-top: 10px;
+    font-size: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: none;
+}
+
+.a:hover .c {
+    display: block;
+} */

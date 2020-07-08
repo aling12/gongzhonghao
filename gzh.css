@@ -1,0 +1,32 @@
+.tencent{
+    position: absolute;
+    margin: 150px;
+    background: red;
+}
+
+.tencent:hover .form-weixin {
+    opacity: 1;   
+    bottom:50px;
+    /* display: block; */
+}
+
+.weixin{
+    background: url(./weixin.png) no-repeat -45px;
+    padding-left: 40px;
+    margin: 120px 100px;
+    
+}
+
+.form-weixin{
+    opacity: 0;
+    transition: 1s;
+    /* display: none; */
+    position: absolute;
+    left: 120px;
+    bottom: 25px;
+    transform: translateX(-50%);
+    border: solid ;
+    padding: 3px;
+}
+
+
